@@ -459,7 +459,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 </style><script>
 /* Album player: real local tracks packaged with this game. No VK API or remote audio extraction. */
 (function(){'use strict';
-const tracks=[{"title": "Готовь крепость", "src": "music/track_01.mp3"}, {"title": "Альшкафоне", "src": "music/track_02.mp3"}, {"title": "Главная тема", "src": "music/track_03.mp3"}, {"title": "Альбом · трек 4", "src": "music/track_04.mp3"}, {"title": "Альбом · трек 5", "src": "music/track_05.mp3"}, {"title": "Альбом · трек 6", "src": "music/track_06.mp3"}, {"title": "Альбом · трек 7", "src": "music/track_07.mp3"}, {"title": "Альбом · трек 8", "src": "music/track_08.mp3"}, {"title": "Альбом · трек 9", "src": "music/track_09.mp3"}];
+const tracks=[{"title": "Готовь крепость", "src": "track_01.mp3"}, {"title": "Альшкафоне", "src": "music/track_02.mp3"}, {"title": "Главная тема", "src": "music/track_03.mp3"}, {"title": "Альбом · трек 4", "src": "music/track_04.mp3"}, {"title": "Альбом · трек 5", "src": "music/track_05.mp3"}, {"title": "Альбом · трек 6", "src": "music/track_06.mp3"}, {"title": "Альбом · трек 7", "src": "music/track_07.mp3"}, {"title": "Альбом · трек 8", "src": "music/track_08.mp3"}, {"title": "Альбом · трек 9", "src": "music/track_09.mp3"}];
 const el=id=>document.getElementById(id);
 const player=el('musicAudio631'),current=el('albumCurrent'),status=el('albumStatus'),list=el('albumTracks');
 if(!player||!list)return;
